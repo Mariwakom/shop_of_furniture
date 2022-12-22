@@ -1,0 +1,328 @@
+
+.top-cart {
+    height: 400px;
+    background-image: url(img/cartback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading-big {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 127px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+
+    
+
+    &__content {
+        grid-column: span 8;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #888888;
+    }
+
+    &__price-one {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #050505;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 210%;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+
+    &__link-box {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+    }
+
+    &__item {
+        border-top: 0.5px solid #CACDD8;
+        padding-top: 25px;
+        padding-bottom: 32px;
+    }
+
+    &__left {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 14px;
+        width: 276px;
+    }
+
+    &__item {
+        border-top: 0.5px solid #CACDD8;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__form {
+        background: #F7F6F6;
+        border-radius: 20px;
+        height: 556px;  
+        grid-column: span 4;
+               
+    }
+
+    &__input {
+        width: 288px;
+        border-style: none;
+        border-bottom: 1px solid #CACDD8;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: #000000;
+        background: transparent;
+        margin-top: 35px;
+    }
+
+    &__input::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        }
+
+    &__input-box {
+        display: flex;
+        flex-direction: column;
+        gap: 61px;
+        padding-left: 28px;
+        padding-right: 64px;
+        
+        }
+
+    &__number {
+        display: block;
+        border-style: none;
+        width: 71px;
+        height: 51px;
+        background: #F7F6F6;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 210%;
+        color: #000000;
+        text-align: center;
+        padding-left: 16 px;
+        padding-right: 16 px;
+        box-sizing: border-box;
+        }
+
+        
+    &__price {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #000000;
+        margin-top: 64px;
+        
+    }   
+    
+    &__submit {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        text-align: center;
+        color: #000000;
+        border-radius: 20px;
+        box-sizing: border-box;
+        width: 290px;
+        height: 41px;
+        margin-top: 18px;
+        justify-content: center;
+
+    }
+ 
+    &__button {
+        width: 200px;
+        height: 37px;
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #020202;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        &:hover{
+            background: #000000;
+            color: #FFFFFF;
+        }
+    }
+
+    &__button-delete {
+        width: 200px;
+        height: 37px;
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #020202;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        &:hover{
+            background: #000000;
+            color: #FFFFFF;
+        }
+    }
+    
+       
+        
+
+    &__button-nav {
+        display: flex;
+        gap: 7px;
+        margin-top: 18px;
+        }
+
+    }    
+    
+
+ 
+    
+   
+.form {
+    padding-top: 42px;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+        }
+
+    
+
+    &__heading {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+        margin-top: 42px;
+        margin-bottom: 35px;
+        text-align: center;
+        }
+
+    &__item {
+        border: none;
+        border-bottom:  1px solid #CACDD8;
+        background-color: transparent;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-left: 27px;
+        margin-right: 32px;
+
+        &::placeholder {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;  
+            color: #000000;
+        }
+            }
+        
+    &__result {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 18px;
+        margin-top: 64px;
+            }    
+
+    &__button { 
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #020202;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        width: 290px;
+        height: 41px;
+        margin: auto;
+    }    
+    
+    .catalog_form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer_form {
+        display: block;
+    }
+
+    }
+
